@@ -9,7 +9,7 @@ import java.util.List;
 @RepositoryRestResource(collectionResourceRel = "products", path = "products")
 public interface productRepository extends MongoRepository<product, String> {
 //Repository function to get all products
-    List<product> findAll(@Param("id") String id);
+    List<product> findAll();
 //Repository function to retrieve one product info
     product findByID(String id);
 }
