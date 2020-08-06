@@ -14,11 +14,11 @@ public class productServiceImpl implements productService {
 
     @Override
     public List<product> findAllProducts() {
-        return null;
+        return productRepository.findAll();
     }
 
     @Override
     public product findByID(String id) {
-        return null;
+        return productRepository.findByID(id);
     }
 }
