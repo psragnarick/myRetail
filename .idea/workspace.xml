@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537d413d-84d3-4239-9497-31c7b17bba09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/MyRetailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/MyRetailApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,6 +45,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -53,10 +63,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.psragnarick.myRetail.controller" />
+      <recent name="com.psragnarick.myRetail.services" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyRetailApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.psragnarick.myRetail.MyRetailApplication" />
+      <module name="myRetail.main" />
+      <extension name="coverage" sample_coverage="false" track_test_folders="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.psragnarick.myRetail.MyRetailApplication" />
+      <module name="myRetail.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,12 +131,31 @@
       <option name="project" value="LOCAL" />
       <updated>1636353730308</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added logging and exception handling">
+      <created>1636356600870</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636356600870</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basic MongoDB service" />
     <MESSAGE value="Added database getters and putters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database getters and putters" />
+    <MESSAGE value="Added logging and exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logging and exception handling" />
   </component>
 </project>

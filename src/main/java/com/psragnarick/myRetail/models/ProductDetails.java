@@ -2,20 +2,18 @@ package com.psragnarick.myRetail.models;
 
 
 import org.springframework.data.annotation.Id;
-import org.springframework.data.annotation.Transient;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+//Model for Product within Database
+
 @Document(collection = "productDetails")
-
 public class ProductDetails extends ProductPrice {
-
 
     @Id
     @Indexed
     private int id;
 
-    @Transient
     private String name;
 
     private ProductDetails price;
@@ -27,6 +25,7 @@ public class ProductDetails extends ProductPrice {
         this.price = (ProductDetails) price;
     }
 
+    //Getters and Setters
 
     public int getId() {
         return id;

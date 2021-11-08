@@ -33,6 +33,8 @@ public class ProductServiceImpl implements ProductService{
     @Autowired
     private ProductRepository productRepository;
 
+    //Method to get the name value of a product
+
     private String getProductName(int id) throws IOException {
         log.info("in getProductName");
         String url = env.getProperty("target.restUrl1")+id+env.getProperty("target.restUrl2");
@@ -65,6 +67,8 @@ public class ProductServiceImpl implements ProductService{
         return productName;
     }
 
+//Method to get price of a product
+
     public ProductDetails getPrice(int id) throws MongoException {
         log.info("in getPrice");
         log.debug("id: " + id);
@@ -73,12 +77,16 @@ public class ProductServiceImpl implements ProductService{
         return productRepository.findById(id);
     }
 
+//Method to change the price of a product
+
     public ProductPrice updatePrice(int id, ProductDetails newProduct) throws MongoException{
         log.info("in updatePrice");
         ProductPrice newPrice = newProduct.getPrice(id);
         newPrice.setId(id);
         return newPrice;
     }
+
+//Method to get all of the details of a product
 
     @Override
     public ProductDetails getProductById(int id) throws IOException {
@@ -95,6 +103,8 @@ public class ProductServiceImpl implements ProductService{
         log.debug("productDetails: "+ pD);
         return pD;
     }
+
+//Method to add product to database
 
     @Override
     public ProductDetails putProductUsingId(int id, ProductDetails newProduct) throws Exception {

@@ -6,6 +6,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+//Model for the Product Pricing
+
 @Document(value = "productPrice")
 public class ProductPrice {
 
@@ -24,6 +26,8 @@ public class ProductPrice {
     public ProductPrice() {
 
     }
+
+//Getters and Setters
 
     @JsonIgnore
     @JsonProperty(value = "id")
