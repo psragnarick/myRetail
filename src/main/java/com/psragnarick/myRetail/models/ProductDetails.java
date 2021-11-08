@@ -8,29 +8,31 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "productDetails")
 
-public class ProductDetails {
+public class ProductDetails extends ProductPrice {
+
 
     @Id
     @Indexed
-    private Integer id;
+    private int id;
 
     @Transient
     private String name;
 
-    private ProductPrice price;
+    private ProductDetails price;
 
-    public ProductDetails(Integer id, String name, ProductPrice price){
+    public ProductDetails(int id, String name, ProductPrice price){
+        super();
         this.id = id;
         this.name = name;
-        this.price = price;
+        this.price = (ProductDetails) price;
     }
 
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -42,11 +44,13 @@ public class ProductDetails {
         this.name = name;
     }
 
-    public ProductPrice getPrice() {
-        return price;
-    }
 
     public void setPrice(ProductPrice price) {
-        this.price = price;
+        this.price = (ProductDetails) price;
+    }
+
+    @Override
+    public String toString(){
+        return "ProductDetails {" + "id=" + id + "," + "name=" + name + "," + price + "}";
     }
 }

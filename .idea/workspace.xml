@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537d413d-84d3-4239-9497-31c7b17bba09" name="Changes" comment="">
+    <list default="true" id="537d413d-84d3-4239-9497-31c7b17bba09" name="Changes" comment="Added database getters and putters">
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/MyRetailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/MyRetailApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" afterDir="false" />
@@ -32,6 +37,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -68,11 +81,19 @@
       <option name="project" value="LOCAL" />
       <updated>1636333969702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added basic MongoDB service">
+      <created>1636335095425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636335095425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added basic MongoDB service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic MongoDB service" />
+    <MESSAGE value="Added database getters and putters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database getters and putters" />
   </component>
 </project>

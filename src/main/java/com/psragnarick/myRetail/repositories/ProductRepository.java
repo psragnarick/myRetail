@@ -2,10 +2,8 @@ package com.psragnarick.myRetail.repositories;
 
 
 import com.psragnarick.myRetail.models.ProductDetails;
-import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-import java.util.Optional;
-
-public interface ProductRepository extends PagingAndSortingRepository<ProductDetails,Integer> {
-    Optional<ProductDetails> findById(Integer id);
+public interface ProductRepository extends MongoRepository<ProductDetails,Integer> {
+    public ProductDetails findById(int id);
 }
