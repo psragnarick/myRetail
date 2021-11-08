@@ -1,9 +1,12 @@
 package com.psragnarick.myRetail.services;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
+import com.mongodb.MongoException;
 import com.psragnarick.myRetail.models.ProductDetails;
+import org.springframework.web.client.HttpClientErrorException;
+
+import java.io.IOException;
 
 public interface ProductService {
-    ProductDetails getProductById(int id) throws JsonProcessingException;
-    ProductDetails putProductUsingId(int id, ProductDetails newProduct) throws JsonProcessingException;
+    ProductDetails getProductById(int id) throws MongoException, HttpClientErrorException, IOException;
+    ProductDetails putProductUsingId(int id, ProductDetails newProduct) throws Exception;
 }
