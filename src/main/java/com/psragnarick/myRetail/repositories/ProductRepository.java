@@ -7,5 +7,5 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 import java.util.Optional;
 
 public interface ProductRepository extends PagingAndSortingRepository<ProductDetails,Integer> {
-    static Optional<ProductDetails> findById(Integer id);
+    Optional<ProductDetails> findById(Integer id);
 }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="537d413d-84d3-4239-9497-31c7b17bba09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,18 @@
       <option name="presentableId" value="Default" />
       <updated>1636208108061</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added basic MongoDB service">
+      <created>1636333969702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636333969702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added basic MongoDB service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added basic MongoDB service" />
   </component>
 </project>

@@ -10,8 +10,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 public class ProductDetails {
 
-
-
     @Id
     @Indexed
     private Integer id;
@@ -19,9 +17,14 @@ public class ProductDetails {
     @Transient
     private String name;
 
-    private Float price;
+    private ProductPrice price;
 
-    private String curCode;
+    public ProductDetails(Integer id, String name, ProductPrice price){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
+
 
     public Integer getId() {
         return id;
@@ -39,20 +42,11 @@ public class ProductDetails {
         this.name = name;
     }
 
-    public Float getPrice() {
+    public ProductPrice getPrice() {
         return price;
     }
 
-    public void setPrice(Float price) {
+    public void setPrice(ProductPrice price) {
         this.price = price;
     }
-
-    public String getCurCode() {
-        return curCode;
-    }
-
-    public void setCurCode(String curCode) {
-        this.curCode = curCode;
-    }
-
 }
