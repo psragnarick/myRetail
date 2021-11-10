@@ -1,64 +1,103 @@
 package com.psragnarick.myRetail.models;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 //Model for the Product Pricing
 
-@Document(value = "productPrice")
+@Document(value = "ProductPrice")
 public class ProductPrice {
 
-    @Id
-    private int id;
+    @Indexed
+    private int tcin;
 
-    private Float price;
+    private  Float price;
 
-    private String curCode;
+    private String currencyCode;
+
+//    @CreatedDate
+//    private LocalDateTime createdDate;
+//
+//    @LastModifiedDate
+//    private LocalDateTime lastModifiedDate;
+//
+//    @CreatedBy
+//    private String createdByUser;
+//
+//    @LastModifiedBy
+//    private String modifiedByUser;
+
 
     public ProductPrice(Float price, String code){
         this.price = price;
-        this.curCode = code;
+        this.currencyCode = code;
     }
 
     public ProductPrice() {
 
     }
 
-//Getters and Setters
-
-    @JsonIgnore
-    @JsonProperty(value = "id")
-    public int getId(){
-        return id;
+    public int getTcin() {
+        return tcin;
     }
 
-    public void setId(int id){
-        this.id =id;
+    public void setTcin(int tcin) {
+        this.tcin = tcin;
     }
 
-    public ProductPrice getPrice(int id) {
-        return new ProductPrice();
+    public Float getPrice() {
+        return price;
     }
 
     public void setPrice(Float price) {
         this.price = price;
     }
 
-    public String getCurCode() {
-        return curCode;
+    public String getCurrencyCode() {
+        return currencyCode;
     }
 
-    public void setCurCode(String curCode) {
-        this.curCode = curCode;
+    public void setCurrencyCode(String currencyCode) {
+        this.currencyCode = currencyCode;
     }
+//
+//    public LocalDateTime getCreatedDate() {
+//        return createdDate;
+//    }
+//
+//    public void setCreatedDate(LocalDateTime createdDate) {
+//        this.createdDate = createdDate;
+//    }
+//
+//    public LocalDateTime getLastModifiedDate() {
+//        return lastModifiedDate;
+//    }
+//
+//    public void setLastModifiedDate(LocalDateTime lastModifiedDate) {
+//        this.lastModifiedDate = lastModifiedDate;
+//    }
+//
+//    public String getCreatedByUser() {
+//        return createdByUser;
+//    }
+//
+//    public void setCreatedByUser(String createdByUser) {
+//        this.createdByUser = createdByUser;
+//    }
+//
+//    public String getModifiedByUser() {
+//        return modifiedByUser;
+//    }
+//
+//    public void setModifiedByUser(String modifiedByUser) {
+//        this.modifiedByUser = modifiedByUser;
+//    }
 
     @Override
     public String toString(){
         return "ProductPrice {"
                 + "price=" + price + ","
-                + "currencyCode =" + curCode + "}";
+                + "currencyCode =" + currencyCode + "}";
     }
 }
