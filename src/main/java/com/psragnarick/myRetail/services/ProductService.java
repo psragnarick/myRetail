@@ -9,7 +9,7 @@ import com.psragnarick.myRetail.repositories.ProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -23,14 +23,12 @@ public class ProductService{
     RestTemplate restTemplate;
 
     @Autowired
-    private Environment env;
-
-    @Autowired
     private ProductRepository productRepository;
 
 
     //Method to get the name value of a product
 
+    @ConfigurationProperties(prefix = "endpoint")
     private String getProductName(int id) throws Exception {
         log.info("in getProductName");
         String url = "https://redsky-uat.perf.target.com/redsky_aggregations/v1/redsky/case_study_v1?key=3yUxt7WltYG7MFKPp7uyELi1K40ad2ys&tcin=" + id;

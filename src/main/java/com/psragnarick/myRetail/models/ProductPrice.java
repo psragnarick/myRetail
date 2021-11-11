@@ -5,7 +5,6 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 //Model for the Product Pricing
-
 @Document(value = "ProductPrice")
 public class ProductPrice {
 

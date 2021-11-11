@@ -13,62 +13,29 @@
       <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/bootJarMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/MyRetailApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/CurrentPrice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/Enrichment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/Images.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/PrimaryBrand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductClassification.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductDescription.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductDetailsResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductPrice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/RedSkyResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/repositories/ProductRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/services/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/myRetail-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/myRetail-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/CurrentPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/Enrichment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/Images.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/PrimaryBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductClassification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetailsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/RedSkyResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootJarMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/models/ProductPrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/psragnarick/myRetail/services/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/myRetail-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/myRetail-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductDetails.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/ProductPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/RedSkyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/models/RedSkyResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/psragnarick/myRetail/services/ProductServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/psragnarick/myRetail/MyRetailApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/psragnarick/myRetail/MyRetailApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/psragnarick/myRetail/controller/ProductControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/psragnarick/myRetail/services/ProductServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/psragnarick/myRetail/MyRetailApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -122,22 +89,28 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Preetham\IdeaProjects\myRetail\src\test\java\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.psragnarick.myRetail.controller" />
       <recent name="com.psragnarick.myRetail.services" />
+      <recent name="com.psragnarick.myRetail" />
+      <recent name="com.psragnarick.myRetail.models" />
+      <recent name="com.psragnarick.myRetail.controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MyRetailApplication">
     <configuration name="MyRetailApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="16" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -157,6 +130,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.psragnarick.myRetail.controller.ProductControllerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductControllerTest.getProduct" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.psragnarick.myRetail.controller.ProductControllerTest.getProduct&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ProductControllerTest" />
+        <item itemvalue="Gradle.ProductControllerTest.getProduct" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636360380826</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rebuilt code with response and request model in mind">
+      <created>1636580699003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636580699003</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,5 +252,12 @@
     <MESSAGE value="Added Unit tests" />
     <MESSAGE value="Rebuilt code with response and request model in mind" />
     <option name="LAST_COMMIT_MESSAGE" value="Rebuilt code with response and request model in mind" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myRetail$MyRetailApplication.ic" NAME="MyRetailApplication Coverage Results" MODIFIED="1636590594131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

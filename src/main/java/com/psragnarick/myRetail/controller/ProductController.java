@@ -5,12 +5,11 @@ import com.psragnarick.myRetail.models.ProductDetailsResponse;
 import com.psragnarick.myRetail.services.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 //Controller for the repository
@@ -18,12 +17,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class ProductController {
+
+    private final ProductService productService;
+    ProductController(final ProductService productService){
+        this.productService = productService;
+    }
     private final Logger log = LoggerFactory.getLogger(ProductController.class);
 
-    @Autowired
-    ProductService productService;
 
-    @RequestMapping(value="product/{tcin}",method = RequestMethod.GET)
+    @GetMapping("/product/{tcin}")
     public ResponseEntity<ProductDetailsResponse> getProduct(@PathVariable int tcin) throws Exception {
         ProductDetailsResponse product = null;
         try {
@@ -36,13 +38,19 @@ public class ProductController {
         return new ResponseEntity(product, HttpStatus.OK);
     }
 
-//    @RequestMapping(value="product/{id}",method = RequestMethod.PUT)
-//    public ProductDetailsResponse putProduct(@PathVariable int id,@RequestBody ProductDetailsResponse product) throws Exception {
-//        log.info("in controller putProduct id :" + id);
-//        log.info("in controller putProduct requestBody :" + product);
-//        ProductDetailsResponse updatedProduct = productService.putProductUsingId(id, product);
-//        log.info(" updated putProductDetails :" + updatedProduct);
-//        return updatedProduct;
+//    @PutMapping("/product/{tcin}")
+//    public ResponseEntity<ProductPrice> updatePrice(@PathVariable int tcin, @RequestBody ProductPrice productPrice){
+//        Optional<ProductPrice> priceData = Optional.ofNullable(productRepository.findByTcin(tcin));
+//        log.info("in controller updatePrice id :" + tcin);
+//        if(priceData.isPresent()){
+//            ProductPrice _productPrice = priceData.get();
+//            _productPrice.setTcin(productPrice.getTcin());
+//            _productPrice.setPrice(productPrice.getPrice());
+//            _productPrice.setCurrencyCode(productPrice.getCurrencyCode());
+//            log.info("new productPrice :" + _productPrice);
+//            return new ResponseEntity<>(productRepository.save(_productPrice), HttpStatus.OK);
+//        } else {
+//            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+//        }
 //    }
-
 }
